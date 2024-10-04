@@ -30,8 +30,7 @@ public class ContactService {
 	}
 
 
-	public Contacts updateUser(Contacts contact) {
-		
+	public Contacts updateUser(Contacts contact) {	
 		return repository.save(contact);
 	}
 
@@ -48,8 +47,7 @@ public class ContactService {
 
 	public Contacts deleteContact(int id) {
 		Contacts contact=repository.findById(id).get();
-		repository.deleteById(id);
-		
+		repository.deleteById(id);	
 		return contact;
 	}
 	

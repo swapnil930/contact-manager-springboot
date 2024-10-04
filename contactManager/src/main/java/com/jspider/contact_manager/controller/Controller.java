@@ -59,20 +59,21 @@ public class Controller {
 	}
 
 
-	@PutMapping(value = "/contact/edit/{id}")
+	@PutMapping(value = "/contacts/{id}")
 	protected ResponseEntity<Response<Contacts>> updateUser(@RequestBody Contacts contact) {
+		System.out.println(contact+"this updated contact");
 		Contacts updatedUser = service.updateUser(contact);
 		Response<Contacts> response = new Response<>();
 		response.setMessage("Contact updated");
-		response.setHttpStatusCode(HttpStatus.CREATED.value());
+		response.setHttpStatusCode(HttpStatus.OK.value());
 		response.setData(updatedUser);
-		return new ResponseEntity<Response<Contacts>>(response, HttpStatus.CREATED);
+		return new ResponseEntity<Response<Contacts>>(response, HttpStatus.OK);
 	}
 
 	@GetMapping(value = "/contacts/{id}")
 	protected ResponseEntity<Response<Contacts>> findUserById(@PathVariable(name = "id") int id) {
 		Contacts contact = service.findUserById(id);
-		System.out.println("my contacts"+id);
+		
 		Response<Contacts> response = new Response<>();
 		if (contact!= null) {
 			response.setMessage("User found");

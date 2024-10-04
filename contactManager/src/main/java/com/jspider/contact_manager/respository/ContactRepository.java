@@ -5,6 +5,8 @@ import org.springframework.stereotype.Repository;  // Correct import for @Reposi
 
 import com.jspider.contact_manager.entity.Contacts;
 
-@Repository  // Add the correct @Repository annotation
+@Repository 
 public interface ContactRepository extends JpaRepository<Contacts, Integer> {
+
+	
 }
