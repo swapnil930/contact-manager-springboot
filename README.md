@@ -1,5 +1,5 @@
 <h1>Contact Management Application...<h1/>
-This is a full-stack web application for managing contacts, built with ReactJS on the frontend and Spring Boot on the backend. It allows users to create, view, update, and delete contacts. The app is designed to be fast, responsive, and user-friendly.
+<p>This is a full-stack web application for managing contacts, built with ReactJS on the frontend and Spring Boot on the backend. It allows users to create, view, update, and delete contacts. The app is designed to be fast, responsive, and user-friendly.</p>
 
 Features
 Frontend:
