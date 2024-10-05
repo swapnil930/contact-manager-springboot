@@ -27,6 +27,10 @@ This is a full-stack web application for managing contacts, built with **ReactJS
 ## Setup and Installation
 
 ### Backend (Spring Boot)
+
 1. Clone the repository:
--  springboot terminal
-* git clone https://github.com/your-repo/contact-manager-backend.git
+   Open the Spring Boot terminal and fetch the repository into your Spring Boot application using the following command:
+
+   ```bash
+   git clone https://github.com/your-repo/contact-manager-backend.git
+
