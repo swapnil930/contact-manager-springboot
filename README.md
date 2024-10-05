@@ -29,9 +29,11 @@ This is a full-stack web application for managing contacts, built with **ReactJS
 ### Backend (Spring Boot)
 
 1. Clone the repository:
-  - Clone the repository: You clone the Spring Boot project from GitHub to your local machine (download zip file and extract it in your system).
-  - Open the project: Once cloned, you open the project folder in an IDE like SpringToolSuite4 for eclips.
-```
+- Clone the repository: You clone the Spring Boot project from GitHub to your local machine (download zip file and extract it in your system).
+- Setup spring tool: Download spring tool and extract it. launch it.
+  
+```bash
 https://spring.io/tools
- 
-
+```
+- Open the project: Once download all, open the project folder in an IDE like SpringToolSuite4 for eclips.
+- : 
