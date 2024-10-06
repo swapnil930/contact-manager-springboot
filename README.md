@@ -35,5 +35,11 @@ This is a full-stack web application for managing contacts, built with **ReactJS
 ```bash
 https://spring.io/tools
 ```
-- Open the project: Once download all, open the project folder in an IDE like SpringToolSuite4 for eclips.
-- : 
+- Open the project: Once download all, open the project folder in an IDE like SpringToolSuite4 for eclips.  
+- OR
+- Create project: Create new Spring starter project in spring tool.
+- Select defendancy:
+- 1. From SQL section choose 'MYSQL' and 'Spring data'.
+- 2. From web section choose 'Spring Web'.
+  3. From devloper tool section 'Sringboot dev tool' and 'Lambok'
+  4. click 'Next'
