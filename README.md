@@ -39,7 +39,7 @@ https://spring.io/tools
 - OR
 - Create project: Create new Spring starter project in spring tool.
 - Select defendancy:
- 1. From SQL section choose 'MYSQL' and 'Spring data'.
+* 1. From SQL section choose 'MYSQL' and 'Spring data'.
  2. From web section choose 'Spring Web'.
  3. From devloper tool section 'Sringboot dev tool' and 'Lambok'
  4. click 'Next'
