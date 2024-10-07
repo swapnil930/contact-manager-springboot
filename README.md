@@ -39,12 +39,12 @@ https://spring.io/tools
 - OR
 - Create project: Create new Spring starter project in spring tool.
 - Select defendancy:
-   1. From SQL section choose 'MYSQL' and 'Spring data'.
-   2. From web section choose 'Spring Web'.
-   3. From devloper tool section 'Sringboot dev tool' and 'Lambok'.
-   4. click 'Next'.
-   5. Configure database connection inside Application.Properties (refer code).
-   6. Add pakages and create class (follow github files code refernce for creating project structure).
+ 1. From SQL section choose 'MYSQL' and 'Spring data'.
+ 2. From web section choose 'Spring Web'.
+ 3. From devloper tool section 'Sringboot dev tool' and 'Lambok'.
+ 4. click 'Next'.
+ 5. Configure database connection inside Application.Properties (refer code).
+ 6. Add pakages and create class (follow github files code refernce for creating project structure).
 - Run application or server: Inside base package there is class ContactManagerApplication Run that class.
 - Now your springboot server will ON.
 
