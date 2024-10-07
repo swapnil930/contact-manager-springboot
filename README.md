@@ -50,11 +50,20 @@ https://spring.io/tools
 
 ### Frontend (ReactJS)
   1. Open vsCode terminal (Use Following Commands)
-  2. Create new react Application : npx create-react-app ContactManagerFrontend
-  3. Install bootstrap : npm install bootstrap
-  4. Install fontAwesome: npm i @fortawesome/fontawesome-free
-  5. Connect fontawesome with html page:	Visit fontawesome (fortawesome/fontawesome-free) official website copy the cdn link and paste in index.html.
-  6. Install Axios: npm i axios
-  7. Install React-Router: npm install react-router-dom@6
-- All defendancy setup done....
-- Now inside src file create folder structure (refer ContactManagerFrontend file).
+  2. In your project directory: npm install
+  3. Create new react Application : npx create-react-app ContactManagerFrontend
+  4. Install bootstrap : npm install bootstrap
+  5. Install fontAwesome: npm i @fortawesome/fontawesome-free
+  6. Connect fontawesome with html page:	Visit fontawesome (fortawesome/fontawesome-free) official website copy the cdn link and paste in index.html.
+  7. Install Axios: npm i axios
+  8. Install React-Router: npm install react-router-dom@6
+  9. All defendancy setup done....
+  10. Now inside src file create folder & components structure (refer ContactManagerFrontend file and components code).
+  11. Now run application : npm start
+
+### API Endpoints
+-POST /contacts: Add a new contact.
+-GET /contacts: Get all contacts.
+-GET /contacts/{id}: Get a contact by ID.
+-PUT /contacts/{id}: Update a contact by ID.
+-DELETE /contacts/{id}: Delete a contact by ID.
