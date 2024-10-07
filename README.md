@@ -67,3 +67,8 @@ https://spring.io/tools
 - GET /contacts/{id}: Get a contact by ID.
 - PUT /contacts/{id}: Update a contact by ID.
 - DELETE /contacts/{id}: Delete a contact by ID.
+- Make sure API will be same in both service component & Controller class.
+
+### Screenshots
+![image](https://github.com/user-attachments/assets/d81c5b4f-88a6-4cab-92aa-66f3afdeec62)
+
