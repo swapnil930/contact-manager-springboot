@@ -45,9 +45,16 @@ https://spring.io/tools
    4. click 'Next'.
    5. Configure database connection inside Application.Properties (refer code).
    6. Add pakages and create class (follow github files code refernce for creating project structure).
-  - Run application or server: Inside base package there is class ContactManagerApplication Run that class.
-  - Now your springboot server will ON.
+- Run application or server: Inside base package there is class ContactManagerApplication Run that class.
+- Now your springboot server will ON.
 
 ### Frontend (ReactJS)
-1. Open vsCode terminal intsall npm
-2. Create React new Project using npm create
+  1. Open vsCode terminal (Use Following Commands)
+  2. Create new react Application : npx create-react-app ContactManagerFrontend
+  3. Install bootstrap : npm install bootstrap
+  4. Install fontAwesome: npm i @fortawesome/fontawesome-free
+  5. Connect fontawesome with html page:	Visit fontawesome (fortawesome/fontawesome-free) official website copy the cdn link and paste in index.html.
+  6. Install Axios: npm i axios
+  7. Install React-Router: npm install react-router-dom@6
+- All defendancy setup done....
+- Now inside src file create folder structure (refer ContactManagerFrontend file).
