@@ -62,8 +62,8 @@ https://spring.io/tools
   11. Now run application : npm start
 
 ### API Endpoints
--POST /contacts: Add a new contact.
--GET /contacts: Get all contacts.
--GET /contacts/{id}: Get a contact by ID.
--PUT /contacts/{id}: Update a contact by ID.
--DELETE /contacts/{id}: Delete a contact by ID.
+- POST /contacts: Add a new contact.
+- GET /contacts: Get all contacts.
+- GET /contacts/{id}: Get a contact by ID.
+- PUT /contacts/{id}: Update a contact by ID.
+- DELETE /contacts/{id}: Delete a contact by ID.
